@@ -1,0 +1,20 @@
+*:hover{
+    color: rgb(168, 158, 223);
+    background-color: #78fbc4;
+}
+#number{
+    color: chartreuse;
+    background-color: darkgreen;
+}
+#text{
+    color: chartreuse;
+    background-color: rgb(97, 255, 97);
+}
+#password{
+    color: chartreuse;
+    background-color: rgb(48, 255, 48);
+}
+#number{
+    color: chartreuse;
+    background-color: rgb(90, 255, 90);
+}
