@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <Style>
+        h1{
+            color: rgb(255, 3, 247);
+        }
+        #first{
+            border-color: rgb(255, 0, 225);
+           border-width: 3px;
+           width: 400px;
+           background-color: rgb(193, 255, 203);
+        }
+       #second{
+        border-color: rgb(255, 0, 225);
+           border-width: 3px;
+           width: 100px;
+           background-color: rgb(193, 255, 203);
+       }
+       #third{
+ border-color: rgb(255, 0, 225);
+           border-width: 3px;
+           width: 400px;
+           background-color: rgb(193, 255, 203);
+       }
+       #ex{
+ border-color: rgb(255, 0, 225);
+           border-width: 2px;
+           width: 400;
+            height:200;  
+            }
+
+    </Style>
+</head>
+<body>
+    <h1>JOB APPLICATION FORM</h1>
+    <nav>
+        <fieldset id="first">
+         <label for="full name">First NAME</label>
+         <br>  
+         <input type="TEXT"  placeholder="ENTER  First NAME"/>
+         <br>
+         <br>
+         <label for="full name">last NAME</label>
+         <br>  
+         <input type="TEXT"  placeholder="ENTER  last NAME"/>
+         <br><br>
+         <label for="E-mail">E-mail</label>
+         <br>  
+         <input type="TEXT"  placeholder="ENTER  E-MAIL"/>
+         <br><br>
+          <label for="phone">Phone number</label>
+         <br>  
+         <input type="number" placeholder="ENTER  your phone number"/>
+         <br><br></fieldset>
+    </nav>
+    <h1>JOB DETAILS</h1>
+    <nav>
+        <fieldset id="first">
+        <label for="position">position you are applying for</label>
+        <br>
+        <select name="position" id="pos">
+        <option value="fresher">fresher</option>
+        <option value="intern">intern</option>
+        <option value="hr">ceo</option>
+         <option value="ceo">hr</option>
+  </select>
+  <br><br>
+         <br>
+         <br>
+         <label for="number">Year of experience</label>
+         <br>  
+         <input type="number"  placeholder="ENTER  your years of experience "/>
+         <br><br>
+  
+<p><label for="w3review">COVER LETTER</label></p>
+
+<textarea id="w3review"  rows="6" cols="50">
+</textarea>
+         <br><br></fieldset>
+    </nav>
+    <h1>Extra Details</h1>
+   <nav>
+        <fieldset id="third">
+        <label for="date">Application start date</label>
+        <br>
+         <input type="date" id="birthday" name="birthday">
+         <br><br>
+         <label for="position">EMPLOYEMENT TYPE</label>
+        <br>
+        <select name="Employement type" id="type">
+        <option value="parttime">part time</option>
+        <option value="intern">full time</option>
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </fieldset>
+    </nav>
+
+</body>
+</html>
