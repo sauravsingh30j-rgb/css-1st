@@ -1,20 +1,44 @@
-*:hover{
-    color: rgb(168, 158, 223);
-    background-color: #78fbc4;
+div {
+      background-color:white;
+      width: 1500px;
+      border: 1px solid black;
+      padding: 5px;
+      margin: 3px;
+      background-color: #fbffe5;
+      
+    }
+    h1{text-decoration: dotted;
+        color:blue;
+        
+    }
+    p{
+        color:rgb(255, 0, 208);
+    }
+    #last{
+        color:red;
+        text-align: left;
+        
+    }
+    #ul{
+color:brown
+    }
+    #ol{
+color:brown
+    }
+h4,h5{
+    color:rgb(0, 255, 8)
 }
-#number{
-    color: chartreuse;
-    background-color: darkgreen;
+#one{
+    background-color: yellow;
 }
-#text{
-    color: chartreuse;
-    background-color: rgb(97, 255, 97);
+
+    pink{
+        background-color: rgb(255, 192, 248);
+    }
+#O{
+    text-align: left;
 }
-#password{
-    color: chartreuse;
-    background-color: rgb(48, 255, 48);
+#table{
+  background-color: rgb(196, 255, 175);
 }
-#number{
-    color: chartreuse;
-    background-color: rgb(90, 255, 90);
-}
+  
